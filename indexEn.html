@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/stylesEn.css" />
+
+    <title>Responsive halloween website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          Free <span class="green-color"> Pales</span
+          ><span class="red-color">tine</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link"> occupation </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link"> unfairness </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link"> people resisting</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link"> reality </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <!--  toggle butten -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home__container">
+          
+          <div class="home__titles">
+            <h2 class="home__subtitle text_h1" id="Text">Israel kills </h2>
+            <h1
+             class="home__title">Palestinians</h1>
+          </div>
+        </div>
+        <div class="home__data">
+          <p class="home__dscription">
+          A call to the international community, especially the United Nations,
+          to take urgent action to stop the crimes of the Israeli occupation
+          against the Palestinians. In a new crime added to the Israeli
+          occupation’s record of crimes, today, Saturday, October 10, 2023,
+          Israeli army forces killed 5 Palestinians in the Gaza Strip.
+        </p>
+        <a href="#" class="home__button">
+          <img src="assets/img/button.svg">
+          <span>
+            Go to sites
+          </span>
+        </a>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src=""></script>
+    <script>
+      const loveText = document.getElementById("Text");
+      loveText.classList.add("bloodAnimation");
+    </script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
